@@ -254,7 +254,9 @@
  <span class="highlight-red">You got 3x the context-routing work.</span></pre>
 </div>
 
-<p>This is the daily reality. You are not using agents to save time. You are spending time making up for what they don't know. The more agents you add, the more time you spend playing telephone. You became a full-time context router, and you didn't sign up for that job.</p>
+<p>This is the daily reality. You are not using agents to save time. You are spending time making up for what they don't know. The more agents you add, the more time you spend playing telephone. You became a full-time <em>context router</em>, and you didn't sign up for that job.</p>
+
+<p>The pattern is worth naming. We call it <em>context routing</em>: the human manually ferrying organizational knowledge between agents that cannot see each other. Once you see it, you see it everywhere. And it is not a failure of any particular model or tool. It is a structural consequence of agents having no shared memory.</p>
 
 <!-- ============================================ -->
 <!-- BEAT 2: THE CORE ISSUE                       -->
@@ -264,15 +266,15 @@
 
 <p>Here's the thing people get wrong: the bottleneck is not capability. These models can write code, reason about architecture, debug production issues. They are genuinely good.</p>
 
-<p>The bottleneck is memory.</p>
+<p>The bottleneck is <em>memory</em>.</p>
 
-<p>Think about what makes a senior engineer effective. It is not that they are 10x smarter than a junior. It is that they carry context. They know the history of the codebase. They know which approaches were tried and abandoned. They know who owns what and why things are the way they are. That accumulated knowledge, built up over months, over years, is what makes them fast.</p>
+<p>Think about what makes a senior engineer effective. It is not that they are 10x smarter than a junior. It is that they carry <em>context</em>. They know the history of the codebase. They know which approaches were tried and abandoned. They know who owns what and why things are the way they are. That <em>accumulated context</em>, built up over months, over years, is what makes them fast.</p>
 
 <p>AI agents have none of this. Every session is a blank slate. You can hand them a <code>CLAUDE.md</code> file or a system prompt, but that is a flat document. A cheat sheet. It does not capture the relationships between decisions. It does not know that the auth system was redesigned because the old one couldn't handle the new permissions model. It does not update itself when things change.</p>
 
 <p>The gap between a great human teammate and an AI agent is not intelligence.</p>
 
-<p>It is context.</p>
+<p>It is <em>context</em>.</p>
 
 <!-- ============================================ -->
 <!-- BEAT 3: THE SOLUTION                         -->
@@ -280,7 +282,7 @@
 
 <h2>Context Tree</h2>
 
-<p>So what if you could give agents the same thing that makes senior engineers effective? A structured, navigable, living memory of everything the team has decided and why.</p>
+<p>If the problem is <em>context routing</em>, and the root cause is that agents have no memory, then the fix is straightforward: give them one. A structured, navigable, living memory of everything the team has decided and why.</p>
 
 <p>That is what a Context Tree is.</p>
 
@@ -290,7 +292,7 @@
 
 <p><strong>Git repository</strong> means every change is a commit. You get versioning, blame, PRs, and reviews for free. No proprietary database, no vendor lock-in. Just files.</p>
 
-<p><strong>Every node has an owner</strong> means accountability. Alice owns <code>backend/auth.md</code>. If an agent wants to update that node, Alice reviews the change. Ownership lives in the files themselves.</p>
+<p><strong>Every node has an owner</strong> means <em>accountability</em>. Alice owns <code>backend/auth.md</code>. If an agent wants to update that node, Alice reviews the change. Ownership lives in the files themselves.</p>
 
 <p>Before an agent acts, it starts at its home node in the tree and walks up. It reads the relevant domain nodes. It sees who owns what. It loads the decisions that were made and the reasoning behind them. Then it acts, with the full context of the team behind it.</p>
 
@@ -347,7 +349,7 @@
 
 <h2>Agents Become Teammates</h2>
 
-<p>Once agents have persistent, structured memory, something shifts. They stop being tools and start being teammates.</p>
+<p>Context Tree solves the <em>context routing</em> problem. But it also enables something bigger. Once agents have persistent, structured memory, something shifts. They stop being tools and start being teammates.</p>
 
 <p>A tool is something you invoke. You prompt, it outputs, you move on. No continuity. No ownership. No memory of last time.</p>
 
