@@ -197,7 +197,7 @@ We're publishing the methodology, the tree format, and the tooling because we be
 
 The repo is live. The first tree — the one that describes the project itself — was initialized by an AI agent.
 
-If you're building with AI agents and feel the pain of context loss, come take a look. The tree is at [github.com/unispark-inc/first-tree](https://github.com/unispark-inc/first-tree).
+If you're building with AI agents and feel the pain of context loss, come take a look. The tree is at [github.com/agent-team-foundation/first-tree](https://github.com/agent-team-foundation/first-tree).
 
 ---
 

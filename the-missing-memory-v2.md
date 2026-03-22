@@ -195,7 +195,7 @@ The repo is live. The first Context Tree — the one that documents the project 
 
 If you're building with AI agents and you feel the pain — the re-explaining, the copy-pasting, the context routing — this is the piece that's missing.
 
-Come look: [github.com/unispark-inc/first-tree](https://github.com/unispark-inc/first-tree).
+Come look: [github.com/agent-team-foundation/first-tree](https://github.com/agent-team-foundation/first-tree).
 
 ---
 
