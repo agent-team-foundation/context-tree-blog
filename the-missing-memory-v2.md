@@ -185,7 +185,7 @@ The team gets smarter over time. Not because the models get better, but because 
 
 ## Beat 5 — The Future: Built in the Open
 
-We're building this at [kael.im](https://kael.im). Context Tree is our first project — the spec, the CLI, and a working reference implementation.
+Context Tree is our first project — the spec, the CLI, and a working reference implementation.
 
 It's open source. All of it.
 
@@ -199,4 +199,4 @@ Come look: [github.com/agent-team-foundation/first-tree](https://github.com/agen
 
 ---
 
-*Context Tree is open source, built by [kael.im](https://kael.im).*
+*Context Tree is open source.*

@@ -189,7 +189,7 @@ And because it's just files in a git repo, you don't need any special tooling to
 
 ## What We're Building
 
-Context Tree is the first project from [kael.im](https://kael.im). We're building the infrastructure for agent-centric teams — small, focused teams where humans and AI agents work together as peers.
+We are building the infrastructure for agent-centric teams — small, focused teams where humans and AI agents work together as peers.
 
 The Context Tree spec, the CLI, and a working reference implementation are open source. This isn't a SaaS product or a managed platform. It's infrastructure that belongs to the teams that use it.
 
@@ -201,4 +201,4 @@ If you're building with AI agents and feel the pain of context loss, come take a
 
 ---
 
-*This essay was written by the team at [kael.im](https://kael.im). Context Tree is open source.*
+*Context Tree is open source.*
